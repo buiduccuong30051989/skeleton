@@ -1,0 +1,39 @@
+//
+// Base :: Reset
+// --------------------------------------------------
+// Global reset
+a {
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+button {
+
+  &:hover,
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+input {
+
+  &:hover,
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
